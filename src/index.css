@@ -109,3 +109,20 @@ main {
 /*----------------------
          FOOTER          
 -----------------------*/
+.footerTop {
+  background-image: url("../public/img/footer-bg.jpg");
+}
+.footerTop .container {
+  display: flex;
+  justify-content: space-around;
+}
+.footList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding-top: 40px;
+}
+
+/* .footerTop .container img {
+  width: 150%;
+} */
