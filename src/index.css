@@ -47,6 +47,12 @@ header li a {
   color: #000000;
   padding: 10px 10px;
 }
+
+header li a:hover {
+  color: #0282f9;
+  border-bottom: 3px solid #0282f9;
+  transition: 0.2s;
+}
 /*----------------------
          MAIN          
 -----------------------*/
