@@ -78,7 +78,7 @@ main {
 }
 
 .navMain ul {
-  justify-content: space-evenly;
+  justify-content: center;
   text-transform: uppercase;
   list-style: none;
   padding-top: 50px;
