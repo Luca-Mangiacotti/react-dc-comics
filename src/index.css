@@ -131,10 +131,10 @@ main {
 .footList {
   display: flex;
   flex-wrap: wrap;
+  margin: 10px 0px;
 }
 
 .footList ul {
-  padding-top: 20px;
   padding-right: 50px;
 }
 
