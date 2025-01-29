@@ -42,7 +42,9 @@ export default function Footer() {
               <li>elem</li>
             </ul>
           </div>
-          <img src="../img/dc-logo-bg.png" alt="dc-logo-bg" />
+          <div className="footerBg">
+            <img src="../img/dc-logo-bg.png" alt="logo-bg" />
+          </div>
         </div>
       </section>
       <div className="footerBottom"></div>

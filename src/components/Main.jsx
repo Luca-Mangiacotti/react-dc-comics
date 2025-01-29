@@ -2,7 +2,9 @@ export default function Main() {
   return (
     <main>
       <section className="contentMain">
-        <div className="container">Contenuto</div>
+        <div className="container">
+          <h1>--CONTENT GOES HERE--</h1>
+        </div>
       </section>
       <nav className="navMain">
         <ul className="container row">

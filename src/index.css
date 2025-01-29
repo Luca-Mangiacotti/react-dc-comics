@@ -110,7 +110,8 @@ main {
          FOOTER          
 -----------------------*/
 .footerTop {
-  background-image: url("../public/img/footer-bg.jpg");
+  background-image: url("../img/footer-bg.jpg");
+  background-size: cover;
 }
 .footerTop .container {
   display: flex;
@@ -122,7 +123,7 @@ main {
   gap: 10px;
   padding-top: 40px;
 }
-
-/* .footerTop .container img {
-  width: 150%;
+/* 
+.footerBg {
+  background-image: url("../img/dc-logo-bg.png");
 } */
