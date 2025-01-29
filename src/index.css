@@ -30,6 +30,11 @@ a {
   text-decoration: none;
 }
 
+ul {
+  text-transform: uppercase;
+  list-style: none;
+}
+
 /*----------------------
         HEADER         
 -----------------------*/
@@ -38,11 +43,6 @@ header .row {
   justify-content: space-between;
   align-items: center;
   margin: 20px auto;
-}
-
-header ul {
-  text-transform: uppercase;
-  list-style: none;
 }
 
 header li a {
@@ -79,8 +79,6 @@ main {
 
 .navMain ul {
   justify-content: center;
-  text-transform: uppercase;
-  list-style: none;
   padding-top: 50px;
   padding-bottom: 50px;
 }
@@ -115,7 +113,10 @@ main {
 }
 .footerTop .container {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  align-items: center;
+  height: 380px;
+  overflow: hidden;
 }
 .footList {
   display: flex;
@@ -123,7 +124,10 @@ main {
   gap: 10px;
   padding-top: 40px;
 }
-/* 
-.footerBg {
+
+.img-foot {
   background-image: url("../img/dc-logo-bg.png");
-} */
+  background-repeat: no-repeat;
+  width: 570px;
+  height: 570px;
+}
