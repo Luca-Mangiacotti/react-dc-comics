@@ -7,7 +7,7 @@ export default function Footer() {
         <div className="container">
           <div className="footList">
             <ul>
-              <h3>Lista</h3>
+              <h3>dc comics</h3>
               <li>elem</li>
               <li>elem</li>
               <li>elem</li>
@@ -17,12 +17,12 @@ export default function Footer() {
               <li>elem</li>
             </ul>
             <ul>
-              <h3>Lista</h3>
+              <h3>dc</h3>
               <li>elem</li>
               <li>elem</li>
             </ul>
             <ul>
-              <h3>Lista</h3>
+              <h3>sites</h3>
               <li>elem</li>
               <li>elem</li>
               <li>elem</li>
@@ -36,7 +36,7 @@ export default function Footer() {
               <li>elem</li>
             </ul>
             <ul>
-              <h3>Lista</h3>
+              <h3>shop</h3>
               <li>elem</li>
               <li>elem</li>
               <li>elem</li>
