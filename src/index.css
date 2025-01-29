@@ -125,13 +125,12 @@ main {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 382px;
+  height: 383px;
   overflow: hidden;
 }
 .footList {
   display: flex;
   flex-wrap: wrap;
-  margin: 10px 0px;
 }
 
 .footList ul {
