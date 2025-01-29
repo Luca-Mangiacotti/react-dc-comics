@@ -1,6 +1,7 @@
 import NavigationFootBot from "../../data/NavigationFootBot";
 import DcComicsFoot from "../../data/DcComicsFoot.jsx";
 import DcFoot from "../../data/DcFoot.jsx";
+import SitesFoot from "../../data/SitesFoot.jsx";
 
 export default function Footer() {
   return (
@@ -30,7 +31,7 @@ export default function Footer() {
             </ul>
             <ul>
               <h3>sites</h3>
-              {DcComicsFoot.map((link) => {
+              {SitesFoot.map((link) => {
                 return (
                   <li key={link.id}>
                     <a href={link.url}>{link.title}</a>
