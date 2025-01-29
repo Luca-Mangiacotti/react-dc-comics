@@ -1,5 +1,5 @@
 import NavigationFootBot from "../../data/NavigationFootBot";
-import DcComicsFoot from "../../data/DcComicsFoot";
+import DcComicsFoot from "../../data/DcComicsFoot.jsx";
 
 export default function Footer() {
   return (
