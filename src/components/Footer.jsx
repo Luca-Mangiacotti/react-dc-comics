@@ -1,5 +1,6 @@
 import NavigationFootBot from "../../data/NavigationFootBot";
 import DcComicsFoot from "../../data/DcComicsFoot.jsx";
+import DcFoot from "../../data/DcFoot.jsx";
 
 export default function Footer() {
   return (
@@ -19,30 +20,33 @@ export default function Footer() {
             </ul>
             <ul>
               <h3>dc</h3>
-              <li>elem</li>
-              <li>elem</li>
+              {DcFoot.map((link) => {
+                return (
+                  <li key={link.id}>
+                    <a href={link.url}>{link.title}</a>
+                  </li>
+                );
+              })}
             </ul>
             <ul>
               <h3>sites</h3>
-              <li>elem</li>
-              <li>elem</li>
-              <li>elem</li>
-              <li>elem</li>
-              <li>elem</li>
-              <li>elem</li>
-              <li>elem</li>
-              <li>elem</li>
-              <li>elem</li>
-              <li>elem</li>
-              <li>elem</li>
+              {DcComicsFoot.map((link) => {
+                return (
+                  <li key={link.id}>
+                    <a href={link.url}>{link.title}</a>
+                  </li>
+                );
+              })}
             </ul>
             <ul>
               <h3>shop</h3>
-              <li>elem</li>
-              <li>elem</li>
-              <li>elem</li>
-              <li>elem</li>
-              <li>elem</li>
+              {DcComicsFoot.map((link) => {
+                return (
+                  <li key={link.id}>
+                    <a href={link.url}>{link.title}</a>
+                  </li>
+                );
+              })}
             </ul>
           </div>
           <div className="img-foot"></div>

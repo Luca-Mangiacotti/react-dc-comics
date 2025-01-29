@@ -134,15 +134,17 @@ main {
 }
 
 .footList ul {
+  padding-top: 20px;
   padding-right: 50px;
 }
 
 .footList ul h3 {
   color: #ffffff;
-  padding-bottom: 20px;
+  padding-bottom: 15px;
 }
 
 .footList ul li a {
+  text-transform: none;
   color: #959595;
 }
 
