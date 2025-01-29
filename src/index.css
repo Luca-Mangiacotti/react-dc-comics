@@ -142,11 +142,11 @@ main {
   padding-bottom: 20px;
 }
 
-.footList ul li {
+.footList ul li a {
   color: #959595;
 }
 
-.footList ul li:hover {
+.footList ul li a:hover {
   color: #ffffff;
   transition: 0.1s;
   cursor: pointer;

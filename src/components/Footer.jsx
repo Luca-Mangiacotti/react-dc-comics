@@ -1,4 +1,5 @@
 import NavigationFootBot from "../../data/NavigationFootBot";
+import DcComicsFoot from "../../data/DcComicsFoot";
 
 export default function Footer() {
   return (
@@ -8,13 +9,13 @@ export default function Footer() {
           <div className="footList">
             <ul>
               <h3>dc comics</h3>
-              <li>elem</li>
-              <li>elem</li>
-              <li>elem</li>
-              <li>elem</li>
-              <li>elem</li>
-              <li>elem</li>
-              <li>elem</li>
+              {DcComicsFoot.map((link) => {
+                return (
+                  <li key={link.id}>
+                    <a href={link.url}>{link.title}</a>
+                  </li>
+                );
+              })}
             </ul>
             <ul>
               <h3>dc</h3>
