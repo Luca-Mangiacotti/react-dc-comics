@@ -45,7 +45,15 @@ export default function Footer() {
           <div className="img-foot"></div>
         </div>
       </section>
-      <div className="footerBottom"></div>
+      <div className="footerBottom">
+        <div className="container row">
+          <button className="btn-foot">Sign-up now!</button>
+          <ul className="row">
+            <h3>FOLLOW US</h3>
+            {}
+          </ul>
+        </div>
+      </div>
     </footer>
   );
 }

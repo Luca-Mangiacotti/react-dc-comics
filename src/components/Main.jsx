@@ -3,7 +3,7 @@ export default function Main() {
     <main>
       <section className="contentMain">
         <div className="container">
-          <h1>--CONTENT GOES HERE--</h1>
+          <h1>--&gt;CONTENT GOES HERE&lt;--</h1>
         </div>
       </section>
       <nav className="navMain">

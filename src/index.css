@@ -12,7 +12,7 @@
 -----------------------*/
 
 body {
-  height: 100 vh;
+  height: 100vh;
   font-family: "Open Sans", serif;
 }
 
@@ -24,6 +24,8 @@ body {
 
 .row {
   display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 a {
@@ -40,21 +42,25 @@ ul {
 -----------------------*/
 
 header .row {
-  justify-content: space-between;
-  align-items: center;
-  margin: 20px auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 header li a {
-  font-weight: 600;
-  color: #000000;
-  padding: 10px 10px;
+  font-weight: 700;
+  color: #303030;
+  padding: 10px;
+  padding-right: 15px;
 }
 
 header li a:hover {
   color: #0282f9;
-  border-bottom: 3px solid #0282f9;
-  transition: 0.2s;
+  border-bottom: 5px solid #0282f9;
+  padding-bottom: 55px;
+}
+
+header li a:hover .row {
+  padding-bottom: 0px;
 }
 /*----------------------
          MAIN          
@@ -86,11 +92,11 @@ main {
 .navMain ul li {
   display: flex;
   align-items: center;
-  gap: 20px;
 }
 
 .navMain ul li img {
   max-width: 25%;
+  padding-right: 10px;
 }
 
 .navMain ul li:nth-child(4) img {
@@ -107,6 +113,10 @@ main {
 /*----------------------
          FOOTER          
 -----------------------*/
+
+/*----------------------
+         TOP FOOTER         
+-----------------------*/
 .footerTop {
   background-image: url("../img/footer-bg.jpg");
   background-size: cover;
@@ -115,13 +125,12 @@ main {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 380px;
+  height: 382px;
   overflow: hidden;
 }
 .footList {
   display: flex;
   flex-wrap: wrap;
-  gap: 10px;
   padding-top: 40px;
 }
 
@@ -130,4 +139,30 @@ main {
   background-repeat: no-repeat;
   width: 570px;
   height: 570px;
+}
+
+/*----------------------
+        BOTTOM FOOTER          
+-----------------------*/
+.footerBottom {
+  background-color: #303030;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.btn-foot {
+  background-color: #303030;
+  border: 1px solid #0282f9;
+  text-transform: uppercase;
+  color: #ffffff;
+  padding: 15px;
+}
+
+.btn-foot:hover {
+  background-color: #0282f9;
+  transition: 0.2s;
+}
+
+.footerBottom h3 {
+  color: #0282f9;
 }
