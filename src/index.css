@@ -165,4 +165,9 @@ main {
 
 .footerBottom h3 {
   color: #0282f9;
+  padding-right: 25px;
+}
+
+.footerBottom nav li {
+  padding: 0px 8px;
 }

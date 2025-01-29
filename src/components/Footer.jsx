@@ -1,3 +1,5 @@
+import NavigationFootBot from "../../data/NavigationFootBot";
+
 export default function Footer() {
   return (
     <footer>
@@ -48,10 +50,18 @@ export default function Footer() {
       <div className="footerBottom">
         <div className="container row">
           <button className="btn-foot">Sign-up now!</button>
-          <ul className="row">
+          <nav className="row">
             <h3>FOLLOW US</h3>
-            {}
-          </ul>
+            <ul className="row">
+              {NavigationFootBot.map((elm) => {
+                return (
+                  <li key={elm.id}>
+                    <img src={elm.url} alt={elm.name} />
+                  </li>
+                );
+              })}
+            </ul>
+          </nav>
         </div>
       </div>
     </footer>

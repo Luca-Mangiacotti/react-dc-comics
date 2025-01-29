@@ -8,8 +8,8 @@ export default function Header() {
           <ul className="row">
             {NavigationHead.map((link) => {
               return (
-                <li key={"link.id"}>
-                  <a href="{link.url}">{link.title}</a>
+                <li key={link.id}>
+                  <a href={link.url}>{link.title}</a>
                 </li>
               );
             })}
