@@ -1,4 +1,5 @@
 import Hero from "./Hero";
+import Comics from "../../data/Comics";
 
 export default function Main() {
   return (
@@ -9,7 +10,22 @@ export default function Main() {
         </div>
         <div className="container">
           <button className="btn">Current Series</button>
-          <h1>--&gt;CONTENT GOES HERE&lt;--</h1>
+          <section className="row">
+            {Comics.map((product) => {
+              return (
+                <div key={product.id} className="card">
+                  <div className="img-container">
+                    <img
+                      className="img-card"
+                      src={product.thumb}
+                      alt={product.title}
+                    />
+                  </div>
+                  <p>{product.title}</p>
+                </div>
+              );
+            })}
+          </section>
         </div>
       </section>
       <nav className="navMain">

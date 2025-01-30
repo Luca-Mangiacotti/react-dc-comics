@@ -1,4 +1,4 @@
-const comics = [
+const Comics = [
   {
     id: 1,
     title: "Action Comics #1000: The Deluxe Edition",
@@ -175,4 +175,4 @@ const comics = [
   },
 ];
 
-export default comics;
+export default Comics;

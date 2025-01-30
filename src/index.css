@@ -85,6 +85,10 @@ main {
 
 .contentMain {
   background-color: #000000;
+}
+
+.heroSec {
+  height: 400px;
   overflow: hidden;
 }
 
@@ -95,6 +99,24 @@ main {
   position: relative;
 }
 
+.contentMain .row {
+  flex-wrap: wrap;
+}
+
+.contentMain .row .card {
+  width: calc((100% - 10px * 12) / 6);
+  padding: 10px;
+  overflow: hidden;
+}
+
+.img-card {
+  width: 100%;
+  height: auto;
+}
+.img-container {
+  height: 170px;
+  overflow: hidden;
+}
 .navMain {
   background-color: #0282f9;
 }
@@ -141,7 +163,7 @@ main {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 383px;
+  height: 400px;
   overflow: hidden;
 }
 .footList {
