@@ -1,8 +1,14 @@
+import Hero from "./Hero";
+
 export default function Main() {
   return (
     <main>
       <section className="contentMain">
+        <div className="heroSec">
+          <Hero url="../img/jumbotron.jpg" />
+        </div>
         <div className="container">
+          <button className="btn">Current Series</button>
           <h1>--&gt;CONTENT GOES HERE&lt;--</h1>
         </div>
       </section>

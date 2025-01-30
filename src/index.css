@@ -37,6 +37,19 @@ ul {
   list-style: none;
 }
 
+.btn {
+  padding: 10px 25px;
+  color: #ffffff;
+  background-color: #0282f9;
+  border: transparent;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 20px;
+  position: absolute;
+  left: 0;
+  top: -20px;
+}
+
 /*----------------------
         HEADER         
 -----------------------*/
@@ -72,11 +85,14 @@ main {
 
 .contentMain {
   background-color: #000000;
+  overflow: hidden;
 }
+
 .contentMain .container {
   font-weight: 700;
   padding-top: 50px;
   padding-bottom: 50px;
+  position: relative;
 }
 
 .navMain {
