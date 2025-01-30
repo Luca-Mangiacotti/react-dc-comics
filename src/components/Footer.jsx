@@ -3,7 +3,7 @@ import DcComicsFoot from "../../data/DcComicsFoot.jsx";
 import DcFoot from "../../data/DcFoot.jsx";
 import SitesFoot from "../../data/SitesFoot.jsx";
 import ShopFoot from "../../data/ShopFoot.jsx";
-
+import Btn from "./Btn.jsx";
 export default function Footer() {
   return (
     <footer>
@@ -56,7 +56,7 @@ export default function Footer() {
       </section>
       <div className="footerBottom">
         <div className="container row">
-          <button className="btn-foot">Sign-up now!</button>
+          <Btn type="foot">sign-up now!</Btn>
           <nav className="row">
             <h3>FOLLOW US</h3>
             <ul className="row">
