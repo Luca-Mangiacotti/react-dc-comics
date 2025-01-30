@@ -26,6 +26,9 @@ export default function Main() {
               );
             })}
           </section>
+          <div className="btn-align">
+            <button>Learn More</button>
+          </div>
         </div>
       </section>
       <nav className="navMain">

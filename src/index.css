@@ -50,6 +50,9 @@ ul {
   top: -20px;
 }
 
+.btn-align {
+  text-align: center;
+}
 /*----------------------
         HEADER         
 -----------------------*/
@@ -148,6 +151,7 @@ main {
 .navMain ul a {
   color: #ffffff;
 }
+
 /*----------------------
          FOOTER          
 -----------------------*/
