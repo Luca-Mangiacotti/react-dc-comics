@@ -37,6 +37,10 @@ ul {
   list-style: none;
 }
 
+/*----------------------
+        BUTTONS        
+-----------------------*/
+
 .btn {
   padding: 10px 25px;
   color: #ffffff;
@@ -45,6 +49,18 @@ ul {
   text-transform: uppercase;
   font-weight: 700;
   font-size: 20px;
+}
+
+.btn.btnPrimary {
+  background-color: #0282f9;
+}
+
+.btn.btnError {
+  background-color: red;
+  color: #000000;
+}
+
+.btn.btnAbsolute {
   position: absolute;
   left: 0;
   top: -20px;

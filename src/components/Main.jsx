@@ -1,5 +1,6 @@
 import Hero from "./Hero";
 import Comics from "../../data/Comics";
+import Btn from "./Btn";
 
 export default function Main() {
   return (
@@ -9,7 +10,7 @@ export default function Main() {
           <Hero url="../img/jumbotron.jpg" />
         </div>
         <div className="container">
-          <button className="btn">Current Series</button>
+          <Btn type="absolute">Current series</Btn>
           <section className="row">
             {Comics.map((product) => {
               return (
@@ -27,7 +28,7 @@ export default function Main() {
             })}
           </section>
           <div className="btn-align">
-            <button>Learn More</button>
+            <Btn type="primary">Load more</Btn>
           </div>
         </div>
       </section>
