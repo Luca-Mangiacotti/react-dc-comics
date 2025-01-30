@@ -44,7 +44,6 @@ ul {
 .btn {
   padding: 10px 25px;
   color: #ffffff;
-  background-color: #0282f9;
   border: transparent;
   text-transform: uppercase;
   font-weight: 700;
@@ -53,6 +52,9 @@ ul {
 
 .btn.btnPrimary {
   background-color: #0282f9;
+  font-size: 15px;
+  padding-left: 35px;
+  padding-right: 35px;
 }
 
 .btn.btnError {
@@ -61,12 +63,15 @@ ul {
 }
 
 .btn.btnAbsolute {
+  background-color: #0282f9;
+  font-size: 25px;
   position: absolute;
   left: 0;
   top: -20px;
 }
 
 .btnFoot {
+  font-size: 18px;
   background-color: #303030;
   border: 1px solid #0282f9;
 }
